@@ -3,7 +3,7 @@ import { data } from '@remix-run/router';
 import { jwtDecode } from 'jwt-decode';
 import React, { useEffect, useState,useContext } from 'react'
 import style from './Profile.module.css'
-import { UserContext } from './../../../components/context/User';
+import { UserContext } from './../../../components/context/User.jsx';
 export default function Profile() {
 
 

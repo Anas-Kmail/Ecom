@@ -1,12 +1,12 @@
 import { useFormik, validateYupSchema } from 'formik';
 import React, { useState } from 'react'
-import { Schema } from 'yup';
+//import { schema } from 'yup';
 import * as yup from 'yup'
 import style from './SendCode.module.css'
 import { FaUser } from "react-icons/fa";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { data } from '@remix-run/router';
+//import { data } from '@remix-run/router';
 
 
 export default function SendCode() {

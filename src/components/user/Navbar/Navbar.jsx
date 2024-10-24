@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import Categories from './../Categories/Categories';
+//import Categories from './../Categories/Categories';
 import style from './Navbar.module.css'
 import { FaCartPlus } from "react-icons/fa";
 import { FaShopify } from "react-icons/fa";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 //import { UserContext } from '../../context/user.jsx';
 import { CgProfile } from "react-icons/cg";
 import axios from 'axios';
-import { UserContext } from '../../context/User';
+//import { UserContext } from '../../context/User.jsx';
 import ExitConfirmation from '../../ExitConfirmation/ExitConfirmation ';
 import { CartContext } from '../../context/CartContext';
+import { UserContext } from '../../context/User.jsx';
 
 
 export default function Navbar( ) {

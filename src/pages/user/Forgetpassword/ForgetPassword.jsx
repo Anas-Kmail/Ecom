@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useContext, useEffect } from 'react'
+import React from 'react'
 //import { UserContext } from './../../../components/context/User.jsx';
 import style from './ForgetPassword.module.css'
 import {useFormik} from 'formik'
@@ -7,7 +7,7 @@ import * as yup from 'yup'
 import { CiBarcode } from "react-icons/ci";
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import { data } from '@remix-run/router';
+//import { data } from '@remix-run/router';
 import { useNavigate } from 'react-router-dom';
 
 export default function ForgetPassword() {
