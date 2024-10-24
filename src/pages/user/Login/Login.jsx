@@ -23,8 +23,8 @@ export default function Login( ) {
 
     const schema=yup.object({
 
-      email :yup.string().required().min(5).max(30).email(),
-      password :yup.string().required().min(4).max(20)
+      email :yup.string().required().min(5).max(50).email(),
+      password :yup.string().required().min(5).max(50)
 
     });
 

@@ -11,9 +11,9 @@ import * as yup from 'yup'
 export default function Register() {
 
   const schema=yup.object({
-    userName:yup.string().required().min(5).max(20),
-    email :yup.string().required().min(5).max(20).email(),
-    password :yup.string().required().min(5).max(20)
+    userName:yup.string().required().min(5).max(50),
+    email :yup.string().required().min(5).max(50).email(),
+    password :yup.string().required().min(5).max(50)
 
   });
 
