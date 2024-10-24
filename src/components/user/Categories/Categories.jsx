@@ -18,7 +18,10 @@ import 'swiper/css/scrollbar';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css';
-import usefetchData from '../../../customHooks/usefetchData';
+//import usefetchData from '../../../customHooks/usefetchData';
+import usefetchData from './../../../customHooks/useFetchData.jsx';
+
+
 export default function Categories() {
 
 const {data,loading,error}=usefetchData(`https://ecommerce-node4.onrender.com/categories`)
