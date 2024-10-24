@@ -1,9 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
-import usefetchData from '../../../customHooks/usefetchData.jsx';
+//import usefetchData from '../../../customHooks/usefetchData.jsx';
 import ClipLoader from "react-spinners/ClipLoader";
 import style from './CategoryDetails.module.css'
+import usefetchData from './../../../customHooks/useFetchData.jsx';
+
 
 export default function CategoryDetails() {
 const[products,setproducts]=useState([]);
