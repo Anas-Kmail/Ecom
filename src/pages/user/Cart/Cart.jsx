@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import ClipLoader from "react-spinners/ClipLoader";
 import style from './Cart.module.css'
 import { date } from 'yup';
-import { CartContext } from '../../../components/context/CartContext';
+import { CartContext } from '../../../components/context/CartContext.jsx';
 import { FaArrowCircleUp } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";

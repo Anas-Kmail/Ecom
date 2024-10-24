@@ -10,7 +10,7 @@ import Product from "../pages/user/Product/Product.jsx";
 import Cart from "../pages/user/Cart/Cart.jsx";
 import Profile from "../pages/user/Profile/Profile.jsx";
 import ForgetPassword from "../pages/user/Forgetpassword/ForgetPassword.jsx";
-import SendCode from './../pages/user/SendCode/SendCode';
+import SendCode from './../pages/user/SendCode/SendCode.jsx';
 import ProtectedRouter from "../ProtectedRouter.jsx";
 import PublicRoute from "../PublicRoute.jsx";
 import Order from "../pages/user/Order/Order.jsx";

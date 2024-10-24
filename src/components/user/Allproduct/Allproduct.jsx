@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react'
-import usefetchData from '../../../customHooks/usefetchData'
+import React, {  useEffect, useState } from 'react'
+//import usefetchData from '../../../customHooks/usefetchData'
 import style from './Allproduct.module.css'
-import { Link, useParams } from 'react-router-dom'
-import { UserContext } from '../../context/user.jsx'
+import { Link } from 'react-router-dom'
+//import { UserContext } from '../../context/user.jsx'
 import axios from 'axios'
 
 export default function Allproduct() {

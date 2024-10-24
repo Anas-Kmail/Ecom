@@ -8,7 +8,7 @@ import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { data } from '@remix-run/router';
 import { useNavigate } from 'react-router-dom';
-import { UserContext } from '../../../components/context/user'
+import { UserContext } from '../../../components/context/User.jsx'
 
 export default function Order() {
 

@@ -2,12 +2,10 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import ClipLoader from "react-spinners/ClipLoader";
-import usefetchData from '../../../customHooks/usefetchData';
+//import usefetchData from '../../../customHooks/usefetchData';
 import style from './Product.module.css'
-import * as yup from 'yup'
-import { useFormik } from 'formik'
-import { IoStarSharp } from "react-icons/io5";
-import { FaCommentDots } from "react-icons/fa";
+import usefetchData from './../../../customHooks/useFetchData.jsx';
+
 
 
 export default function Product() {

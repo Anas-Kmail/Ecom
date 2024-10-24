@@ -5,7 +5,7 @@ import { useFormik } from 'formik'
 import { IoStarSharp } from "react-icons/io5";
 import { FaCommentDots } from "react-icons/fa";
 import style from './Comment.module.css'
-import { UserContext } from '../../components/context/user';
+//import { UserContext } from '../../components/context/user';
 import axios from 'axios';
 export default function Comment() {
 
