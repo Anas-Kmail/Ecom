@@ -62,19 +62,9 @@ export default function Register() {
         <FaLock className={`${style.icon}`}/>
 
         </div>
-
-          <div className={`${style.remember_forget}`}>
-
-          <label><input type='checkbox' />Remember me</label>
-          <a href='#'>Forget Password?</a>
-          </div>
           <button type='submit'>Login</button>
 
-          <div className={`${style.register_link}`}>
-
-          <p>Don't have an acount?<a href='#'>Register</a></p>
-
-          </div>
+        
 
       </form>
 

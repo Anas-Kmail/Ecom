@@ -83,7 +83,7 @@ export default function Product() {
           <div className={`${style.child}`}>
             <div className={`${style.images_dflex}`}>
               {data.product.subImages.map(image =>
-                <div key={image.public_id} >
+                <div key={image.public_id} className={`${style.modify_img}`}>
                   <img src={image.secure_url} />
 
                 </div>

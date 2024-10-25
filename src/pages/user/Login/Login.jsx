@@ -122,7 +122,7 @@ toast.error(iserrors, {
 
           <div className={`${style.register_link}`}>
 
-          <p>Don't have an acount?<a href='#'>Register</a></p>
+          <p>Don't have an acount?<Link to={'/register'}>Register</Link></p>
 
           </div>
 

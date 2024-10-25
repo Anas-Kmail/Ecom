@@ -99,7 +99,7 @@ navigate('/');
 
 
          
-          <button type='submit'>Install order</button>
+          <button type='submit' className={`${style.btn}`}>Install order</button>
 
          
 
